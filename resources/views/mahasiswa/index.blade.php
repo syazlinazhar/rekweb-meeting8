@@ -18,7 +18,7 @@
                       <th scope="col">Action</th>    
                     </tr>   
                     </thead>
-                    <tbody>
+                        <tbody>
                         @foreach( $mahasiswa as $mhs )
                         <tr>
                             <th scope="row">{{ $loop->iteration }}</th>
@@ -32,7 +32,7 @@
                             </td>
                         </tr>
                         @endforeach
-                    </tbody>
+                        </tbody>
                     </table>
                 </div>
             </div>
