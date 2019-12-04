@@ -1,7 +1,7 @@
  @extends('template.main')
 
     @section('title', 'Form Edit Data Mahasiswa')
-
+    
     @section('container')
         <div class="container">
             <div class="row">
