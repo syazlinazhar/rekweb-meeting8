@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Student extends Model
-{
-    use SoftDeletes;
-    protected $fillable = ['name', 'matric', 'email', 'course'];
-}
+	class Student extends Model
+	{
+	    use SoftDeletes;
+	    protected $fillable = ['name', 'matric', 'email', 'course'];
+	}
